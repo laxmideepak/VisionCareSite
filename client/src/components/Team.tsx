@@ -11,7 +11,7 @@ export default function Team() {
           </p>
           <img 
             src="https://cdn.sanity.io/images/k0mgimab/production/33ce762de846140ec41c171e9bf9e9c7c1f98337-2048x1398.webp?fm=webp" 
-            alt="Mi Vision Eye Care Team" 
+            alt="GoTo Optical Team" 
             className="w-full max-w-4xl mx-auto rounded-xl shadow-lg"
           />
         </div>

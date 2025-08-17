@@ -20,7 +20,7 @@ async function seedDatabase() {
     // Create admin user
     const adminPassword = await bcrypt.hash("admin123", 12);
     const [adminUser] = await db.insert(schema.users).values({
-      email: "admin@visioncare.com",
+      email: "admin@gotooptical.com",
       password: adminPassword,
       firstName: "Admin",
       lastName: "User",
@@ -33,7 +33,7 @@ async function seedDatabase() {
     // Create staff user
     const staffPassword = await bcrypt.hash("staff123", 12);
     const [staffUser] = await db.insert(schema.users).values({
-      email: "staff@visioncare.com",
+      email: "staff@gotooptical.com",
       password: staffPassword,
       firstName: "Staff",
       lastName: "Member",
@@ -167,8 +167,8 @@ async function seedDatabase() {
 
     console.log("🎉 Database seeding completed successfully!");
     console.log("\n📋 Default Accounts Created:");
-    console.log("Admin: admin@visioncare.com / admin123");
-    console.log("Staff: staff@visioncare.com / staff123");
+    console.log("Admin: admin@gotooptical.com / admin123");
+    console.log("Staff: staff@gotooptical.com / staff123");
     
   } catch (error) {
     console.error("❌ Seeding failed:", error);

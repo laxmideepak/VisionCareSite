@@ -5,7 +5,7 @@ export default function Testimonials() {
     {
       name: "Ayerim Rios",
       image: "https://cdn.sanity.io/images/k0mgimab/production/ff42a19f57ad9ccc0305b4ab89e4ae0932f21946-200x200.webp?w=96&fm=webp",
-      text: "I come here once a year to check my prescription and Elizabeth and Dr Cuba never disappoints. The style of frames are my fav and my prescription sunglasses 😎 and even though I'm not a big brands girl I fell in love with my Versace & Gucci 😍 thank you Mi Vision"
+      text: "I come here once a year to check my prescription and Elizabeth and Dr Cuba never disappoints. The style of frames are my fav and my prescription sunglasses 😎 and even though I'm not a big brands girl I fell in love with my Versace & Gucci 😍 thank you GoTo Optical"
     },
     {
       name: "Susana Williams",

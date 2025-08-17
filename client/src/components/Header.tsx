@@ -8,8 +8,8 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="https://cdn.sanity.io/images/k0mgimab/production/901ae8c133e287f7e42765e39573b8a7f1a6246e-768x277.webp?h=80&fm=webp" 
-              alt="Mi Vision Eye Care Logo" 
+              src="https://gotooptical.com/wp-content/uploads/2023/11/GoTo-Optical-Logo-1.svg" 
+              alt="GoTo Optical Logo" 
               className="h-10 sm:h-12 w-auto"
             />
           </div>

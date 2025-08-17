@@ -1,4 +1,4 @@
-# VisionCareSite Deployment Guide
+# GoTo Optical Deployment Guide
 
 ## 🚀 Production Database Setup
 
@@ -138,8 +138,8 @@ npm run db:push
 
 After seeding, these accounts will be available:
 
-- **Admin**: `admin@visioncare.com` / `admin123`
-- **Staff**: `staff@visioncare.com` / `staff123`
+- **Admin**: `admin@gotooptical.com` / `admin123`
+- **Staff**: `staff@gotooptical.com` / `staff123`
 
 **⚠️ Important**: Change these passwords in production!
 

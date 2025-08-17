@@ -11,7 +11,7 @@ export default function Services() {
             Contacts & Glasses
           </h2>
           <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            At Mi Vision, we are proud to provide comprehensive, primary eye care for the whole family. Our San Antonio optometrist, Dr. Pedro Cuba, and our vision care team specialize in a full range of eye care services for women, men and children of all ages, such as
+            At GoTo Optical, we are proud to provide comprehensive, primary eye care for the whole family. Our San Antonio optometrist, Dr. Pedro Cuba, and our vision care team specialize in a full range of eye care services for women, men and children of all ages, such as
           </p>
           <ul className="text-lg text-gray-700 mt-6 space-y-2">
             <li>• Comprehensive Eye Exams</li>

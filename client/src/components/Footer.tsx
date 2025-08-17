@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <img 
-              src="https://cdn.sanity.io/images/k0mgimab/production/901ae8c133e287f7e42765e39573b8a7f1a6246e-768x277.webp?h=80&fm=webp" 
-              alt="Mi Vision Eye Care Logo" 
+              src="https://gotooptical.com/wp-content/uploads/2023/11/GoTo-Optical-Logo-1.svg" 
+              alt="GoTo Optical Logo" 
               className="h-12 w-auto mb-4 filter brightness-0 invert"
             />
             <p className="text-gray-300">Your trusted San Antonio eye care professionals providing comprehensive vision services for the whole family.</p>
@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-400">&copy; 2024 Mi Vision Eye Care. All rights reserved. | Veteran-Owned Business | Se Habla Español</p>
+          <p className="text-gray-400">&copy; 2024 GoTo Optical. All rights reserved. | Veteran-Owned Business | Se Habla Español</p>
         </div>
       </div>
     </footer>
