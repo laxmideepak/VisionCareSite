@@ -6,11 +6,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <img 
-              src="/assets/logo.jpg" 
-              alt="GoTo Optical Logo" 
-              className="h-12 w-auto max-w-full mb-4 rounded-lg shadow-lg object-contain"
-            />
+            <div className="mb-4">
+              <div className="text-2xl font-bold text-white mb-1">
+                <span className="text-green-400">GoTo</span>
+                <span className="text-white"> Optical</span>
+              </div>
+              <div className="text-sm text-green-400 font-semibold">
+                EYEWEAR + EYECARE
+              </div>
+            </div>
             <p className="text-blue-100">Your trusted DFW eye care professionals providing comprehensive vision services for the whole family.</p>
           </div>
           <div>

@@ -17,7 +17,7 @@ export default function Contact() {
               <Phone className="w-5 h-5 mr-2 inline" />Call Us
             </a>
             <a 
-              href="https://book2.getweave.com/dfa1826b-79a3-4a2c-9020-f6ee57b08b82/request-appointment" 
+              href="https://scheduleyourexam.com/v3/index.php/9227/" 
               className="bg-orange-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 transition-colors duration-200"
             >
               Book Online
@@ -35,10 +35,10 @@ export default function Contact() {
                 We are centrally located at 4396 Dallas Fort Worth Turnpike Ste 107, Dallas, TX 75211, which means you won't have to drive far to see an eye doctor nearest you on the same day. Book your appointment online!
               </p>
               <a 
-                href="https://book2.getweave.com/dfa1826b-79a3-4a2c-9020-f6ee57b08b82/request-appointment" 
+                href="https://scheduleyourexam.com/v3/index.php/9227/" 
                 className="bg-primary-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-700 transition-colors duration-200 inline-block mb-8"
               >
-                Call Us
+                Book Online
               </a>
               <div className="mb-8">
                 <p className="text-lg font-semibold text-gray-900 mb-4">We accept now</p>
@@ -74,7 +74,7 @@ export default function Contact() {
               <Phone className="w-5 h-5 mr-2 inline" />Call Us
             </a>
             <a 
-              href="https://book2.getweave.com/dfa1826b-79a3-4a2c-9020-f6ee57b08b82/request-appointment" 
+              href="https://scheduleyourexam.com/v3/index.php/9227/" 
               className="bg-orange-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 transition-colors duration-200"
             >
               Book Online

@@ -4,7 +4,7 @@ import helmet from "helmet";
 import cors from "cors";
 import rateLimit from "express-rate-limit";
 import { storage } from "./storage";
-import authRoutes from "./auth-routes";
+
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Security middleware
@@ -22,15 +22,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
   app.use("/api", limiter);
 
-  // Stricter rate limiting for auth routes
-  const authLimiter = rateLimit({
-    windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 10, // limit each IP to 10 auth requests per windowMs
-    message: "Too many authentication attempts, please try again later.",
-  });
 
-  // Authentication routes
-  app.use("/api/auth", authLimiter, authRoutes);
 
   // Public API routes
   app.get("/api/health", (req, res) => {

@@ -28,7 +28,7 @@ export default function Home() {
               <i className="fas fa-phone mr-2"></i>Call Us
             </a>
             <a 
-              href="https://book2.getweave.com/dfa1826b-79a3-4a2c-9020-f6ee57b08b82/request-appointment" 
+              href="https://scheduleyourexam.com/v3/index.php/9227/" 
               className="bg-orange-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 transition-colors duration-200"
             >
               Book Online

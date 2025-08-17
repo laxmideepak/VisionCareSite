@@ -40,7 +40,7 @@ export default function Header() {
               <Phone className="w-4 h-4 mr-2 inline" />Call Us
             </a>
             <a 
-              href="https://book2.getweave.com/dfa1826b-79a3-4a2c-9020-f6ee57b08b82/request-appointment" 
+              href="https://scheduleyourexam.com/v3/index.php/9227/" 
               className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
             >
               Book Online

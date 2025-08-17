@@ -58,14 +58,14 @@ export default function Team() {
               </div>
               
               <div className="mt-auto">
-                <div className="grid grid-cols-2 gap-4 mb-4">
-                  <div className="text-center p-4 bg-primary-50 rounded-lg">
-                    <Clock className="text-primary-600 w-6 h-6 mx-auto mb-2" />
-                    <div className="text-sm font-semibold text-gray-900">Years of Experience</div>
+                <div className="grid grid-cols-2 gap-2 mb-4">
+                  <div className="text-center p-2 bg-primary-50 rounded-lg">
+                    <Clock className="text-primary-600 w-4 h-4 mx-auto mb-1" />
+                    <div className="text-xs font-semibold text-gray-900 leading-tight" style={{ fontSize: '10px' }}>Years of Experience</div>
                   </div>
-                  <div className="text-center p-4 bg-primary-50 rounded-lg">
-                    <Languages className="text-primary-600 w-6 h-6 mx-auto mb-2" />
-                    <div className="text-sm font-semibold text-gray-900">Se Habla Español!</div>
+                  <div className="text-center p-2 bg-primary-50 rounded-lg">
+                    <Languages className="text-primary-600 w-4 h-4 mx-auto mb-1" />
+                    <div className="text-xs font-semibold text-gray-900 leading-tight" style={{ fontSize: '10px' }}>Se Habla Español!</div>
                   </div>
                 </div>
                 <p className="text-sm text-gray-700 text-center">
