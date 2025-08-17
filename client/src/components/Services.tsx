@@ -52,7 +52,7 @@ export default function Services() {
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
             <h3 className="text-xl font-bold text-gray-900 mb-2">EXCLUSIVE RETAILER OF LUXURY EYEWEAR</h3>
-            <p className="text-gray-600">One of DFW's ONLY authorized retailers of Cartier, Versace & Gucci.</p>
+                            <p className="text-gray-600">One of DFW's ONLY authorized retailers of Versace, Gucci, Prada and more.</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
             <img 

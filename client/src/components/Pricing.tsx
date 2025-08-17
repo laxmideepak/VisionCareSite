@@ -39,17 +39,22 @@ export default function Pricing() {
     <section className="bg-gray-100 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
+          {/* Store Image Section - Much Wider */}
           <div className="mb-8 bg-blue-800 p-8 rounded-xl">
             <img 
-              src="/assets/store-interior.webp" 
+              src="/assets/store-interior.webp?v=6" 
               alt="GoTo Optical Store Interior" 
-              className="w-full max-w-4xl mx-auto rounded-xl shadow-lg object-contain"
-              style={{ maxHeight: '500px' }}
+              className="w-full mx-auto rounded-xl shadow-lg object-contain"
+              style={{ 
+                maxHeight: '800px', 
+                width: '100%',
+                maxWidth: '1400px',
+                minWidth: '800px'
+              }}
             />
           </div>
           
-
-          
+          {/* Specials Heading */}
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Specials</h2>
           <p className="text-lg text-gray-600">Eye exam without glasses purchase</p>
         </div>
