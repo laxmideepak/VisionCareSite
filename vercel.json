@@ -1,20 +1,5 @@
 {
   "buildCommand": "npm run vercel-build",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "functions": {
-    "server/index.ts": {
-      "runtime": "@vercel/node"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/server/index.ts"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "framework": "vite"
 }
