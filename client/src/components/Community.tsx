@@ -10,7 +10,7 @@ export default function Community() {
           />
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 px-2">Our Commitment to the Community</h2>
           <p className="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto px-4">
-            At GoTo Optical, we believe in giving back to the community. We are proud to support local organizations and initiatives that make a positive impact. Join us in our mission to improve the lives of those around us.
+            At Go-To-Optical and Eye Care, we believe in giving back to the community. We are proud to support local organizations and initiatives that make a positive impact. Join us in our mission to improve the lives of those around us.
           </p>
         </div>
       </div>

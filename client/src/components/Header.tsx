@@ -9,7 +9,7 @@ export default function Header() {
           <div className="flex items-center">
             <img 
               src="/assets/logo.jpg" 
-              alt="GoTo Optical Logo" 
+              alt="Go-To-Optical and Eye Care Logo" 
               className="h-8 sm:h-10 md:h-12 w-auto"
             />
           </div>

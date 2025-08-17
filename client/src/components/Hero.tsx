@@ -8,22 +8,12 @@ export default function Hero() {
         <div className="lg:hidden">
           {/* Mobile Hero Content */}
           <div className="text-center py-6 sm:py-8">
-            {/* Logo for mobile hero */}
-            <div className="mb-4 sm:mb-6">
-              <img 
-                src="/assets/logo.jpg" 
-                alt="GoTo Optical Logo" 
-                className="h-10 sm:h-12 w-auto mx-auto"
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
-            </div>
-            
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-bold leading-tight mb-4 text-center px-2">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-center px-2">
               <span className="text-orange-400">#1 EYE EXAM</span><br />
-              Near You DFW<br />
-              <span className="text-orange-400 text-2xl sm:text-3xl md:text-4xl font-bold">20% OFF</span><br />
-              <span className="text-lg sm:text-xl md:text-2xl">If CALL or BOOK</span><br />
-              <span className="text-lg sm:text-xl md:text-2xl">ONLINE</span>
+              <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">Near You DFW</span><br />
+              <span className="text-orange-400 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">20% OFF</span><br />
+              <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl">If CALL or BOOK</span><br />
+              <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl">ONLINE</span>
             </h1>
             
             <div className="flex flex-col gap-3 mb-6 px-4">

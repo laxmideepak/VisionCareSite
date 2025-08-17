@@ -11,7 +11,7 @@ export default function Team() {
           </p>
           <img 
             src="/assets/team-photo-new.jpg" 
-            alt="GoTo Optical Team" 
+            alt="Go-To-Optical and Eye Care Team" 
             className="w-full max-w-4xl mx-auto rounded-xl shadow-lg"
           />
         </div>

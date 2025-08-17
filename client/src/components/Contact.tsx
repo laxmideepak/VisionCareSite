@@ -57,7 +57,7 @@ export default function Contact() {
             <div className="text-center order-1 lg:order-2">
               <img 
                 src="/assets/store-front.webp" 
-                alt="GoTo Optical Store Front" 
+                alt="Go-To-Optical and Eye Care Store Front" 
                 className="w-full max-w-md mx-auto rounded-xl shadow-lg"
               />
             </div>

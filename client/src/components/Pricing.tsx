@@ -43,7 +43,7 @@ export default function Pricing() {
           <div className="mb-6 sm:mb-8 bg-blue-800 p-4 sm:p-8 rounded-xl">
             <img 
               src="/assets/store-interior.webp?v=6" 
-              alt="GoTo Optical Store Interior" 
+              alt="Go-To-Optical and Eye Care Store Interior" 
               className="w-full mx-auto rounded-xl shadow-lg object-contain"
               style={{ 
                 maxHeight: '300px',

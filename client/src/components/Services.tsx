@@ -11,7 +11,7 @@ export default function Services() {
             Contacts & Glasses
           </h2>
           <p className="text-base sm:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed px-4">
-            At GoTo Optical, we are proud to provide comprehensive, primary eye care for the whole family. Our DFW optometrist, Dr. Joby, and our vision care team specialize in a full range of eye care services for women, men and children of all ages, such as
+            At Go-To-Optical and Eye Care, we are proud to provide comprehensive, primary eye care for the whole family. Our DFW optometrist, Dr. Joby, and our vision care team specialize in a full range of eye care services for women, men and children of all ages, such as
           </p>
           <ul className="text-base sm:text-lg text-gray-700 mt-4 sm:mt-6 space-y-1 sm:space-y-2 px-4">
             <li>• Comprehensive Eye Exams</li>
@@ -60,8 +60,8 @@ export default function Services() {
               alt="Lowest Prices" 
               className="w-full h-40 sm:h-48 object-cover rounded-lg mb-4"
             />
-            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">LOWEST PRICES IN SA</h3>
-            <p className="text-sm sm:text-base text-gray-600">$59 Eye Exam, 20% Off When You Book Online & More!</p>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">LOWEST PRICES IN DFW</h3>
+            <p className="text-sm sm:text-base text-gray-600">$69 Eye Exam, 20% Off When You Book Online & More!</p>
           </div>
         </div>
       </div>

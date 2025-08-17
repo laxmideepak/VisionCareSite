@@ -6,19 +6,19 @@ export default function Testimonials() {
       name: "David Martin",
       title: "Professional Excellence",
       image: "https://cdn.sanity.io/images/k0mgimab/production/ff42a19f57ad9ccc0305b4ab89e4ae0932f21946-200x200.webp?w=96&fm=webp",
-      text: "Dr. Joby and Sam at GoTo Optical are amazing professionals. They answered all my questions and are very knowledgeable, and thorough. They offer five star service to all their patients. I highly recommend them for your eye care needs."
+      text: "Dr. Joby and Sam at Go-To-Optical and Eye Care are amazing professionals. They answered all my questions and are very knowledgeable, and thorough. They offer five star service to all their patients. I highly recommend them for your eye care needs."
     },
     {
       name: "Armann",
       title: "Great Time Visiting", 
       image: "https://cdn.sanity.io/images/k0mgimab/production/4113f9232ede6b54e6d97bdeb3cf62c7e4f14dbc-200x200.webp?w=96&fm=webp",
-      text: "Had a great time visiting GoTo Optical. Great customer service, they help you get an appointment very quickly. Doctor takes his time to attend you and answers all the questions. They have all the premium brands like Gucci, Versace, YSL, Tom Ford and more. Highly recommended!!"
+      text: "Had a great time visiting Go-To-Optical and Eye Care. Great customer service, they help you get an appointment very quickly. Doctor takes his time to attend you and answers all the questions. They have all the premium brands like Gucci, Versace, YSL, Tom Ford and more. Highly recommended!!"
     },
     {
       name: "Cassie Jo",
       title: "Deepest Gratitude",
       image: "https://cdn.sanity.io/images/k0mgimab/production/ffa67cda82220a22b2a543c5a1859a5228b5f859-200x200.webp?w=96&fm=webp",
-      text: "I had to take a moment to express my deepest gratitude for GOTO Optical and Eye Care off Cockrell Hill FOR SO MANY reasons. I am born and raised in the hood, and sometimes in certain areas have businesses that profit off the lower income... [This business provides] excellent service and genuine care for the community."
+      text: "I had to take a moment to express my deepest gratitude for Go-To-Optical and Eye Care off Cockrell Hill FOR SO MANY reasons. I am born and raised in the hood, and sometimes in certain areas have businesses that profit off the lower income... [This business provides] excellent service and genuine care for the community."
     }
   ];
 
