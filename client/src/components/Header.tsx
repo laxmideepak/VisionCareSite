@@ -35,15 +35,18 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <a 
               href="tel:+12145505005" 
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
+              className="group relative bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-xl font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 border-2 border-transparent hover:border-blue-500"
             >
-              <Phone className="w-4 h-4 mr-2 inline" />Call Us
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-800 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Phone className="w-4 h-4 mr-2 inline relative z-10" />
+              <span className="relative z-10">Call Us</span>
             </a>
             <a 
               href="https://scheduleyourexam.com/v3/index.php/9227/" 
-              className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
+              className="group relative bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-2 rounded-xl font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 border-2 border-transparent hover:border-orange-400"
             >
-              Book Online
+              <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <span className="relative z-10">Book Online</span>
             </a>
           </div>
         </div>
@@ -53,15 +56,18 @@ export default function Header() {
           <div className="flex space-x-2">
             <a 
               href="tel:+12145505005" 
-              className="flex-1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-3 py-3 rounded-lg font-semibold text-center transition-colors duration-200 text-sm touch-manipulation"
+              className="group relative flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-3 rounded-xl font-semibold text-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 text-sm touch-manipulation border-2 border-transparent hover:border-blue-500"
             >
-              <Phone className="w-4 h-4 mr-1 inline" />Call Us
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-800 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Phone className="w-4 h-4 mr-1 inline relative z-10" />
+              <span className="relative z-10">Call Us</span>
             </a>
             <a 
               href="https://scheduleyourexam.com/v3/index.php/9227/" 
-              className="flex-1 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white px-3 py-3 rounded-lg font-semibold text-center transition-colors duration-200 text-sm touch-manipulation"
+              className="group relative flex-1 bg-gradient-to-r from-orange-500 to-orange-600 text-white px-3 py-3 rounded-xl font-semibold text-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 text-sm touch-manipulation border-2 border-transparent hover:border-orange-400"
             >
-              Book Online
+              <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <span className="relative z-10">Book Online</span>
             </a>
           </div>
         </div>

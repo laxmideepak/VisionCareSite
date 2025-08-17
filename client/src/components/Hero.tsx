@@ -16,18 +16,21 @@ export default function Hero() {
               <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl">ONLINE</span>
             </h1>
             
-            <div className="flex flex-col gap-3 mb-6 px-4">
+            <div className="flex flex-col gap-4 mb-6 px-4">
               <a 
                 href="tel:+12145505005" 
-                className="bg-white text-blue-600 px-6 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 active:bg-gray-200 transition-colors duration-200 text-center touch-manipulation"
+                className="group relative bg-gradient-to-r from-white to-gray-50 text-blue-600 px-6 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0 transition-all duration-300 text-center touch-manipulation border-2 border-transparent hover:border-blue-200"
               >
-                <Phone className="w-5 h-5 mr-2 inline" />Call Us
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <Phone className="w-5 h-5 mr-2 inline relative z-10" />
+                <span className="relative z-10">Call Us</span>
               </a>
               <a 
                 href="https://scheduleyourexam.com/v3/index.php/9227/" 
-                className="bg-orange-500 text-white px-6 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 active:bg-orange-700 transition-colors duration-200 text-center touch-manipulation"
+                className="group relative bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0 transition-all duration-300 text-center touch-manipulation border-2 border-transparent hover:border-orange-400"
               >
-                Book Online
+                <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <span className="relative z-10">Book Online</span>
               </a>
             </div>
             
@@ -61,15 +64,18 @@ export default function Hero() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href="tel:+12145505005" 
-                  className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors duration-200 text-center"
+                  className="group relative bg-gradient-to-r from-white to-gray-50 text-blue-600 px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0 transition-all duration-300 text-center border-2 border-transparent hover:border-blue-200"
                 >
-                  <Phone className="w-5 h-5 mr-2 inline" />Call Us
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <Phone className="w-5 h-5 mr-2 inline relative z-10" />
+                  <span className="relative z-10">Call Us</span>
                 </a>
                 <a 
                   href="https://scheduleyourexam.com/v3/index.php/9227/" 
-                  className="bg-orange-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 transition-colors duration-200 text-center"
+                  className="group relative bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0 transition-all duration-300 text-center border-2 border-transparent hover:border-orange-400"
                 >
-                  Book Online
+                  <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <span className="relative z-10">Book Online</span>
                 </a>
               </div>
             </div>

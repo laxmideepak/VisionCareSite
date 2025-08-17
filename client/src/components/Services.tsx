@@ -39,18 +39,21 @@ export default function Services() {
               Management of Ocular Conditions
             </li>
           </ul>
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mt-6 sm:mt-8 px-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6 sm:mt-8 px-4">
             <a 
               href="tel:+12145505005" 
-              className="bg-white text-blue-600 px-6 py-4 rounded-lg font-semibold hover:bg-gray-100 active:bg-gray-200 transition-colors duration-200 touch-manipulation"
+              className="group relative bg-gradient-to-r from-white to-gray-50 text-blue-600 px-6 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0 transition-all duration-300 touch-manipulation border-2 border-transparent hover:border-blue-200"
             >
-              <Phone className="w-4 h-4 mr-2 inline" />Call Us
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Phone className="w-4 h-4 mr-2 inline relative z-10" />
+              <span className="relative z-10">Call Us</span>
             </a>
             <a 
               href="https://scheduleyourexam.com/v3/index.php/9227/" 
-              className="bg-transparent text-white border-2 border-white px-6 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 active:bg-gray-100 transition-colors duration-200 touch-manipulation"
+              className="group relative bg-transparent text-white border-2 border-white px-6 py-4 rounded-xl font-semibold hover:bg-white hover:text-blue-600 active:bg-gray-100 transition-all duration-300 touch-manipulation shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0"
             >
-              Book Online
+              <div className="absolute inset-0 bg-gradient-to-r from-white to-gray-50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <span className="relative z-10">Book Online</span>
             </a>
           </div>
         </div>

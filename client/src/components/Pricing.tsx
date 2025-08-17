@@ -87,28 +87,32 @@ export default function Pricing() {
               
               <a 
                 href="https://scheduleyourexam.com/v3/index.php/9227/" 
-                className="bg-white text-blue-600 border-2 border-blue-600 px-4 sm:px-6 py-3 sm:py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors duration-200 w-full block touch-manipulation flex items-center justify-center"
+                className="group relative bg-white text-blue-600 border-2 border-blue-600 px-4 sm:px-6 py-3 sm:py-3 rounded-xl font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 w-full block touch-manipulation flex items-center justify-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5 active:translate-y-0"
               >
-                <Calendar className="w-4 h-4 mr-2" />
-                Book Online
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <Calendar className="w-4 h-4 mr-2 relative z-10" />
+                <span className="relative z-10">Book Online</span>
               </a>
             </div>
           ))}
         </div>
 
         <div className="text-center mt-8 sm:mt-12">
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="tel:+12145505005" 
-              className="bg-blue-600 text-white px-8 sm:px-10 py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-blue-700 active:bg-blue-800 transition-colors duration-200 touch-manipulation"
+              className="group relative bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 sm:px-10 py-4 rounded-xl font-bold text-base sm:text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0 transition-all duration-300 touch-manipulation border-2 border-transparent hover:border-blue-500"
             >
-              <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2 inline" />Call Us
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-800 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2 inline relative z-10" />
+              <span className="relative z-10">Call Us</span>
             </a>
             <a 
               href="https://scheduleyourexam.com/v3/index.php/9227/" 
-              className="bg-white text-blue-600 border-2 border-blue-600 px-8 sm:px-10 py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-blue-600 hover:text-white transition-colors duration-200 touch-manipulation"
+              className="group relative bg-white text-blue-600 border-2 border-blue-600 px-8 sm:px-10 py-4 rounded-xl font-bold text-base sm:text-lg hover:bg-blue-600 hover:text-white transition-all duration-300 touch-manipulation shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0"
             >
-              Book Online
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <span className="relative z-10">Book Online</span>
             </a>
           </div>
         </div>
