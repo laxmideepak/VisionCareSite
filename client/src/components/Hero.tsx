@@ -18,11 +18,12 @@ export default function Hero() {
               />
             </div>
             
-            <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4">
+            <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4 text-center">
               <span className="text-orange-400">#1 EYE EXAM</span><br />
               Near You DFW<br />
-              <span className="text-orange-400 text-3xl sm:text-4xl">20% OFF</span><br />
-              If CALL or BOOK ONLINE
+              <span className="text-orange-400 text-3xl sm:text-4xl font-bold">20% OFF</span><br />
+              <span className="text-xl sm:text-2xl">If CALL or BOOK</span><br />
+              <span className="text-xl sm:text-2xl">ONLINE</span>
             </h1>
             
             <div className="flex flex-col gap-3 mb-6 px-4">
@@ -40,7 +41,7 @@ export default function Hero() {
               </a>
             </div>
             
-            <p className="text-sm text-blue-100 px-4 mb-6">
+            <p className="text-xs text-blue-100 px-4 mb-6 whitespace-nowrap overflow-hidden text-ellipsis">
               (From any frames on stock. Not valid with insurance or other promotions.)
             </p>
             
@@ -59,13 +60,14 @@ export default function Hero() {
         <div className="hidden lg:block py-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+              <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-center lg:text-left">
                 <span className="text-orange-400">#1 EYE EXAM</span><br />
-                Near You DFW<br />
-                <span className="text-orange-400">20% OFF</span><br />
-                If CALL or BOOK ONLINE
+                <span className="text-2xl lg:text-4xl">Near You DFW</span><br />
+                <span className="text-orange-400 text-4xl lg:text-6xl font-bold">20% OFF</span><br />
+                <span className="text-xl lg:text-3xl">If CALL or BOOK</span><br />
+                <span className="text-xl lg:text-3xl">ONLINE</span>
               </h1>
-              <p className="text-xl mb-8 text-blue-100">(From any frames on stock. Not valid with insurance or other promotions.)</p>
+              <p className="text-sm mb-8 text-blue-100 whitespace-nowrap">(From any frames on stock. Not valid with insurance or other promotions.)</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href="tel:+12145505005" 
