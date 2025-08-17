@@ -85,7 +85,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-blue-500 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
-          <p className="text-sm sm:text-base text-blue-200">&copy; 2024 GoTo Optical. All rights reserved. | Se Habla Español</p>
+          <p className="text-sm sm:text-base text-blue-200">&copy; 2025 GoTo Optical. All rights reserved. | Se Habla Español</p>
         </div>
       </div>
     </footer>

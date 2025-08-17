@@ -16,26 +16,26 @@ export default function Team() {
           />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mt-12 sm:mt-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mt-12 sm:mt-16">
           <div className="flex justify-center order-2 lg:order-1">
             <img 
               src="/assets/dr-joby.webp" 
               alt="Dr. Joby, OD - Therapeutic Optometrist" 
-              className="w-full max-w-md rounded-xl shadow-lg object-cover"
-              style={{ height: '400px', maxHeight: 'min(400px, 60vh)' }}
+              className="w-full max-w-lg rounded-xl shadow-lg object-cover"
+              style={{ height: '500px', maxHeight: 'min(500px, 70vh)' }}
             />
           </div>
-          <div className="flex flex-col h-full order-1 lg:order-2" style={{ minHeight: '400px' }}>
+          <div className="flex flex-col h-full order-1 lg:order-2" style={{ minHeight: '500px' }}>
             <div className="bg-white p-4 sm:p-6 rounded-xl shadow-lg border border-gray-200 flex flex-col h-full">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">Dr. Joby, OD</h3>
-              <h4 className="text-base sm:text-lg text-primary-600 font-semibold mb-3 sm:mb-4">Therapeutic Optometrist</h4>
+              <h4 className="text-base sm:text-lg text-blue-600 font-semibold mb-3 sm:mb-4">Therapeutic Optometrist</h4>
               
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4">
                 Dr. Joby is a dedicated Therapeutic Optometrist with extensive experience in comprehensive eye care, specializing in eye examinations, contact lens fittings, and the management of ocular diseases. With a strong foundation in therapeutic optometry and a commitment to staying current with the latest advancements in technology and treatment, Dr. Joby ensures every patient receives personalized, patient-centered care. Known for taking the time to understand each individual's unique needs, Dr. Joby is devoted to helping patients achieve optimal vision and long-term eye wellness.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 flex-grow">
-                <div className="bg-primary-50 p-3 rounded-lg">
+                <div className="bg-blue-50 p-3 rounded-lg">
                   <h5 className="font-semibold text-gray-900 text-sm mb-1">Specialties</h5>
                   <ul className="text-gray-700 text-xs space-y-0.5">
                     <li>• Comprehensive Eye Exams</li>
@@ -45,7 +45,7 @@ export default function Team() {
                   </ul>
                 </div>
                 
-                <div className="bg-primary-50 p-3 rounded-lg">
+                <div className="bg-blue-50 p-3 rounded-lg">
                   <h5 className="font-semibold text-gray-900 text-sm mb-1">Education</h5>
                   <p className="text-gray-700 text-xs">Doctor of Optometry</p>
                   
@@ -53,18 +53,18 @@ export default function Team() {
                   <p className="text-gray-700 text-xs">Therapeutic Optometrist</p>
                   
                   <h5 className="font-semibold text-gray-900 text-sm mb-1 mt-3">Languages</h5>
-                  <p className="text-gray-700 text-xs">English</p>
+                  <p className="text-gray-700 text-xs">English & Spanish</p>
                 </div>
               </div>
               
               <div className="mt-auto">
                 <div className="grid grid-cols-2 gap-2 mb-4">
-                  <div className="text-center p-2 bg-primary-50 rounded-lg">
-                    <Clock className="text-primary-600 w-4 h-4 mx-auto mb-1" />
+                  <div className="text-center p-2 bg-blue-50 rounded-lg">
+                    <Clock className="text-blue-600 w-4 h-4 mx-auto mb-1" />
                     <div className="text-xs font-semibold text-gray-900 leading-tight" style={{ fontSize: '10px' }}>Years of Experience</div>
                   </div>
-                  <div className="text-center p-2 bg-primary-50 rounded-lg">
-                    <Languages className="text-primary-600 w-4 h-4 mx-auto mb-1" />
+                  <div className="text-center p-2 bg-blue-50 rounded-lg">
+                    <Languages className="text-blue-600 w-4 h-4 mx-auto mb-1" />
                     <div className="text-xs font-semibold text-gray-900 leading-tight" style={{ fontSize: '10px' }}>Se Habla Español!</div>
                   </div>
                 </div>

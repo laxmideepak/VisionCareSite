@@ -35,7 +35,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <a 
               href="tel:+12145505005" 
-              className="bg-primary-600 hover:bg-primary-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
             >
               <Phone className="w-4 h-4 mr-2 inline" />Call Us
             </a>
@@ -53,7 +53,7 @@ export default function Header() {
           <div className="flex space-x-2">
             <a 
               href="tel:+12145505005" 
-              className="flex-1 bg-primary-600 hover:bg-primary-700 active:bg-primary-800 text-white px-3 py-3 rounded-lg font-semibold text-center transition-colors duration-200 text-sm touch-manipulation"
+              className="flex-1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-3 py-3 rounded-lg font-semibold text-center transition-colors duration-200 text-sm touch-manipulation"
             >
               <Phone className="w-4 h-4 mr-1 inline" />Call Us
             </a>

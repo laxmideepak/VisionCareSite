@@ -2,7 +2,7 @@ import { Phone } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white">
+    <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Mobile Layout */}
         <div className="lg:hidden">
@@ -19,13 +19,13 @@ export default function Hero() {
             <div className="flex flex-col gap-3 mb-6 px-4">
               <a 
                 href="tel:+12145505005" 
-                className="bg-primary-700 border-2 border-white text-white px-6 py-4 rounded-lg font-bold text-lg hover:bg-primary-800 active:bg-primary-900 transition-colors duration-200 text-center touch-manipulation"
+                className="bg-white text-blue-600 px-6 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 active:bg-gray-200 transition-colors duration-200 text-center touch-manipulation"
               >
                 <Phone className="w-5 h-5 mr-2 inline" />Call Us
               </a>
               <a 
                 href="https://scheduleyourexam.com/v3/index.php/9227/" 
-                className="bg-white text-primary-600 px-6 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 active:bg-gray-200 transition-colors duration-200 text-center touch-manipulation"
+                className="bg-orange-500 text-white px-6 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 active:bg-orange-700 transition-colors duration-200 text-center touch-manipulation"
               >
                 Book Online
               </a>
@@ -61,7 +61,7 @@ export default function Hero() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href="tel:+12145505005" 
-                  className="bg-white text-primary-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors duration-200 text-center"
+                  className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors duration-200 text-center"
                 >
                   <Phone className="w-5 h-5 mr-2 inline" />Call Us
                 </a>
