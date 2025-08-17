@@ -33,7 +33,12 @@ export default function Footer() {
               </div>
               <div className="flex items-center justify-center sm:justify-start">
                 <Phone className="w-4 h-4 mr-2 text-blue-200 flex-shrink-0" />
-                <span className="text-sm sm:text-base">+1 (214) 550-5005</span>
+                <a 
+                  href="tel:+12145505005" 
+                  className="text-sm sm:text-base hover:text-white transition-colors duration-200"
+                >
+                  +1 (214) 550-5005
+                </a>
               </div>
               <div className="flex items-center justify-center sm:justify-start">
                 <Clock className="w-4 h-4 mr-2 text-blue-200 flex-shrink-0" />
