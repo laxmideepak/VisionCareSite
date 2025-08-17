@@ -23,48 +23,48 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="bg-primary-50 py-16">
+    <section className="bg-primary-50 py-12 sm:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <div className="flex items-center justify-center mb-4">
-            <span className="text-6xl font-bold text-gray-900 mr-4">800+</span>
+        <div className="text-center mb-8 sm:mb-12">
+          <div className="flex items-center justify-center mb-4 px-4">
+            <span className="text-4xl sm:text-6xl font-bold text-gray-900 mr-2 sm:mr-4">800+</span>
             <img 
               src="/assets/animated-5-stars.gif" 
               alt="5 Star Rating Animation" 
-              className="h-12 w-auto mr-4"
+              className="h-8 sm:h-12 w-auto mr-2 sm:mr-4"
             />
           </div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">5 STAR REVIEWS ON GOOGLE</h2>
-          <p className="text-xl text-gray-700 mb-2">Our patients love us!</p>
-          <p className="text-lg text-gray-600">But don't take our word for it.</p>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 px-2">5 STAR REVIEWS ON GOOGLE</h2>
+          <p className="text-lg sm:text-xl text-gray-700 mb-1 sm:mb-2">Our patients love us!</p>
+          <p className="text-base sm:text-lg text-gray-600">But don't take our word for it.</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="flex items-center mb-4">
+            <div key={index} className="bg-white p-4 sm:p-6 rounded-xl shadow-lg">
+              <div className="flex items-center mb-3 sm:mb-4">
                 <img 
                   src={testimonial.image} 
                   alt={testimonial.name} 
-                  className="w-12 h-12 rounded-full mr-4"
+                  className="w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-3 sm:mr-4 flex-shrink-0"
                 />
-                <div>
-                  <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                  <h5 className="text-sm font-medium text-primary-600 mb-1">"{testimonial.title}"</h5>
-                  <div className="flex text-yellow-400 text-sm">
+                <div className="min-w-0 flex-1">
+                  <h4 className="font-semibold text-gray-900 text-sm sm:text-base">{testimonial.name}</h4>
+                  <h5 className="text-xs sm:text-sm font-medium text-primary-600 mb-1">"{testimonial.title}"</h5>
+                  <div className="flex text-yellow-400 text-xs sm:text-sm">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-current" />
+                      <Star key={i} className="w-3 h-3 sm:w-4 sm:h-4 fill-current" />
                     ))}
                   </div>
                 </div>
               </div>
-              <p className="text-gray-700 leading-relaxed">{testimonial.text}</p>
+              <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{testimonial.text}</p>
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-8">
-          <p className="text-gray-600 text-sm max-w-3xl mx-auto">
+        <div className="text-center mt-6 sm:mt-8">
+          <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-4">
             We don't utilize agencies to filter our reviews, that's why instead of 5 we have 4.9 real reviews because no one is perfect and we build on trial and error constantly improving with your comments to offer you a totally different experience in the eye care business.
           </p>
         </div>
