@@ -49,7 +49,7 @@ export default function Pricing() {
           </div>
           
           {/* Brand List Section */}
-          <div className="mb-8 bg-blue-700 rounded-xl p-8 shadow-xl border-4 border-blue-500">
+          <div className="mb-8 bg-blue-800 rounded-xl p-8 shadow-xl border-4 border-blue-600">
             <h3 className="text-3xl font-bold text-white text-center mb-8">Premium Eyewear Brands</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div className="space-y-3">
