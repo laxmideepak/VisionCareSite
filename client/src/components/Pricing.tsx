@@ -39,7 +39,7 @@ export default function Pricing() {
     <section className="bg-gray-100 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <div className="mb-8">
+          <div className="mb-8 bg-blue-800 p-8 rounded-xl">
             <img 
               src="/assets/store-interior.webp" 
               alt="GoTo Optical Store Interior" 
@@ -48,38 +48,7 @@ export default function Pricing() {
             />
           </div>
           
-          {/* Brand List Section */}
-          <div className="mb-8 bg-blue-800 rounded-xl p-8 shadow-xl border-4 border-blue-600">
-            <h3 className="text-3xl font-bold text-white text-center mb-8">Premium Eyewear Brands</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-              <div className="space-y-3">
-                <div className="text-white font-bold text-lg">COACH</div>
-                <div className="text-white font-bold text-lg">FENDI</div>
-                <div className="text-white font-bold text-lg">Christian Dior</div>
-                <div className="text-white font-bold text-lg">DOLCE GABBANA</div>
-                <div className="text-white font-bold text-lg">Cartier</div>
-                <div className="text-white font-bold text-lg">BURBERRY</div>
-              </div>
-              <div className="space-y-3">
-                <div className="text-white font-bold text-lg">BALENCIAGA</div>
-                <div className="text-white font-bold text-lg">VERSACE</div>
-                <div className="text-white font-bold text-lg">TIFFANY & Co</div>
-                <div className="text-white font-bold text-lg">YVES SAINT LAURENT</div>
-                <div className="text-white font-bold text-lg">PRADA</div>
-                <div className="text-white font-bold text-lg">MICHAEL KORS</div>
-                <div className="text-white font-bold text-lg">OAKLEY</div>
-              </div>
-              <div className="space-y-3">
-                <div className="text-white font-bold text-lg">GUCCI</div>
-                <div className="text-white font-bold text-lg">GIORGIO ARMANI</div>
-                <div className="text-white font-bold text-lg">Salvatore Ferragamo</div>
-                <div className="text-white font-bold text-lg">CARRERA</div>
-                <div className="text-white font-bold text-lg">BOUCHERON</div>
-                <div className="text-white font-bold text-lg">Ray-Ban</div>
-                <div className="text-white font-bold text-lg">bebe</div>
-              </div>
-            </div>
-          </div>
+
           
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Specials</h2>
           <p className="text-lg text-gray-600">Eye exam without glasses purchase</p>
