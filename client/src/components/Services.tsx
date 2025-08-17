@@ -11,7 +11,7 @@ export default function Services() {
             Contacts & Glasses
           </h2>
           <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            At GoTo Optical, we are proud to provide comprehensive, primary eye care for the whole family. Our San Antonio optometrist, Dr. Pedro Cuba, and our vision care team specialize in a full range of eye care services for women, men and children of all ages, such as
+            At GoTo Optical, we are proud to provide comprehensive, primary eye care for the whole family. Our DFW optometrist, Dr. Joby, and our vision care team specialize in a full range of eye care services for women, men and children of all ages, such as
           </p>
           <ul className="text-lg text-gray-700 mt-6 space-y-2">
             <li>• Comprehensive Eye Exams</li>
@@ -21,7 +21,7 @@ export default function Services() {
           </ul>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a 
-              href="tel:+12109232020" 
+              href="tel:+12145505005" 
               className="bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200"
             >
               <Phone className="w-4 h-4 mr-2 inline" />Call Us
@@ -52,7 +52,7 @@ export default function Services() {
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
             <h3 className="text-xl font-bold text-gray-900 mb-2">EXCLUSIVE RETAILER OF LUXURY EYEWEAR</h3>
-            <p className="text-gray-600">One of San Antonio's ONLY authorized retailers of Cartier, Versace & Gucci.</p>
+            <p className="text-gray-600">One of DFW's ONLY authorized retailers of Cartier, Versace & Gucci.</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
             <img 

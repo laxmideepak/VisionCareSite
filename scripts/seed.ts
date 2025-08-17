@@ -153,7 +153,7 @@ async function seedDatabase() {
         patientName: "Ronni Link",
         patientImage: "https://cdn.sanity.io/images/k0mgimab/production/ffa67cda82220a22b2a543c5a1859a5228b5f859-200x200.webp?w=96&fm=webp",
         rating: 5,
-        testimonialText: "The ABSOLUTELY BEST eyeglass place I've ever gone to. Dr. Cuba and his staff are awesome! I've used eye glasses for 25 years and NEVER have I been to an optometrist that cares as much for their clients, treat them like family, and go out of their way to make sure you can afford what you need. Thank you. You guys are a blessing.",
+        testimonialText: "The ABSOLUTELY BEST eyeglass place I've ever gone to. Dr. Joby and his staff are awesome! I've used eye glasses for 25 years and NEVER have I been to an optometrist that cares as much for their clients, treat them like family, and go out of their way to make sure you can afford what you need. Thank you. You guys are a blessing.",
         isApproved: true,
         isPublished: true,
       }

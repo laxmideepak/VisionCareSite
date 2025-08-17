@@ -9,7 +9,6 @@ export default function Community() {
             className="w-full max-w-2xl mx-auto rounded-xl shadow-lg mb-8"
           />
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Commitment to the Community</h2>
-          <p className="text-xl text-primary-600 font-semibold mb-4">Blessed to give than to receive Acts 20:35</p>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
             At GoTo Optical, we believe in giving back to the community. We are proud to support local organizations and initiatives that make a positive impact. Join us in our mission to improve the lives of those around us.
           </p>

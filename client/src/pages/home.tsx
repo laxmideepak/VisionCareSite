@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import IPLTherapy from "@/components/IPLTherapy";
 import Services from "@/components/Services";
+
 import Testimonials from "@/components/Testimonials";
 import Community from "@/components/Community";
 import Pricing from "@/components/Pricing";
@@ -22,7 +22,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+12109232020" 
+              href="tel:+12145505005" 
               className="bg-primary-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-700 transition-colors duration-200"
             >
               <i className="fas fa-phone mr-2"></i>Call Us
@@ -36,7 +36,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <IPLTherapy />
       <Services />
       <Testimonials />
       <Community />

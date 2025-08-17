@@ -11,7 +11,7 @@ export default function Contact() {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+12109232020" 
+              href="tel:+12145505005" 
               className="bg-white text-primary-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors duration-200"
             >
               <Phone className="w-5 h-5 mr-2 inline" />Call Us
@@ -32,7 +32,7 @@ export default function Contact() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Book Your Exam Appointment Online</h2>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                We are centrally located at 4522 Fredericksburg Rd, 78201, just off i10 and 410, which means you won't have to drive far to see an eye doctor nearest you on the same day. Book your appointment online!
+                We are centrally located at 4396 Dallas Fort Worth Turnpike Ste 107, Dallas, TX 75211, which means you won't have to drive far to see an eye doctor nearest you on the same day. Book your appointment online!
               </p>
               <a 
                 href="https://book2.getweave.com/dfa1826b-79a3-4a2c-9020-f6ee57b08b82/request-appointment" 
@@ -51,8 +51,8 @@ export default function Contact() {
             </div>
             <div className="text-center">
               <img 
-                src="https://cdn.sanity.io/images/k0mgimab/production/90188e03c78a04e7e99ecf6fa1a07c1a07c2aca5-1080x1080.webp?w=480&fm=webp" 
-                alt="Book Online" 
+                src="/assets/store-front.webp" 
+                alt="GoTo Optical Store Front" 
                 className="w-full max-w-md mx-auto rounded-xl shadow-lg"
               />
             </div>
@@ -68,7 +68,7 @@ export default function Contact() {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+12109232020" 
+              href="tel:+12145505005" 
               className="bg-primary-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-700 transition-colors duration-200"
             >
               <Phone className="w-5 h-5 mr-2 inline" />Call Us

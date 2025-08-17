@@ -3,7 +3,7 @@ import { Phone } from "lucide-react";
 export default function Pricing() {
   const pricingPlans = [
     {
-      price: "$59",
+      price: "$69",
       features: [
         "• Basic eye exam includes vision test",
         "• Prescription", 
@@ -11,24 +11,25 @@ export default function Pricing() {
       ]
     },
     {
-      price: "$99",
+      price: "$89",
       features: [
         "• Complete eye exam includes all basic tests",
         "• Retinal imaging"
       ]
     },
     {
-      price: "$129",
+      price: "$99",
       features: [
         "• Premium eye exam includes all tests",
-        "• Contact lens fitting"
+        "• Standard contact lens fitting",
+        "• Glasses prescription"
       ]
     },
     {
-      price: "$149",
+      price: "$119",
       features: [
         "• Full eye care package includes exam",
-        "• Contact lenses",
+        "• Specialized contact lens fitting",
         "• Glasses prescription"
       ]
     }
@@ -38,6 +39,14 @@ export default function Pricing() {
     <section className="bg-gray-100 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
+          <div className="mb-8">
+            <img 
+              src="/assets/store-interior.webp" 
+              alt="GoTo Optical Store Interior" 
+              className="w-full max-w-2xl mx-auto rounded-full shadow-lg object-cover"
+              style={{ aspectRatio: '1/1', height: '400px' }}
+            />
+          </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Specials</h2>
           <p className="text-lg text-gray-600">Eye exam without glasses purchase</p>
         </div>
@@ -64,7 +73,7 @@ export default function Pricing() {
         <div className="text-center mt-8">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+12109232020" 
+              href="tel:+12145505005" 
               className="bg-primary-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-700 transition-colors duration-200"
             >
               <Phone className="w-5 h-5 mr-2 inline" />Call Us

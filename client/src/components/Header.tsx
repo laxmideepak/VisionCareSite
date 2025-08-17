@@ -8,7 +8,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="https://gotooptical.com/wp-content/uploads/2023/11/GoTo-Optical-Logo-1.svg" 
+              src="/assets/logo.jpg" 
               alt="GoTo Optical Logo" 
               className="h-10 sm:h-12 w-auto"
             />
@@ -34,7 +34,7 @@ export default function Header() {
           {/* Desktop: Call and Book buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <a 
-              href="tel:+12109232020" 
+              href="tel:+12145505005" 
               className="bg-primary-600 hover:bg-primary-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
             >
               <Phone className="w-4 h-4 mr-2 inline" />Call Us
@@ -52,13 +52,13 @@ export default function Header() {
         <div className="md:hidden pb-3">
           <div className="flex space-x-2">
             <a 
-              href="tel:+12109232020" 
+              href="tel:+12145505005" 
               className="flex-1 bg-primary-600 hover:bg-primary-700 text-white px-3 py-2.5 rounded-lg font-semibold text-center transition-colors duration-200 text-sm"
             >
               Call Us
             </a>
             <a 
-              href="https://wa.me/12109232020" 
+              href="https://wa.me/12145505005" 
               className="flex-1 bg-green-500 hover:bg-green-600 text-white px-3 py-2.5 rounded-lg font-semibold text-center transition-colors duration-200 flex items-center justify-center text-sm"
             >
               <svg className="w-3 h-3 mr-1.5" viewBox="0 0 24 24" fill="currentColor">

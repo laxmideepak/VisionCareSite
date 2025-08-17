@@ -11,7 +11,7 @@ export default function Hero() {
             {/* Logo for mobile hero */}
             <div className="mb-6">
               <img 
-                src="https://gotooptical.com/wp-content/uploads/2023/11/GoTo-Optical-Logo-1.svg" 
+                src="/assets/logo.jpg" 
                 alt="GoTo Optical Logo" 
                 className="h-12 w-auto mx-auto"
                 style={{ filter: 'brightness(0) invert(1)' }}
@@ -20,14 +20,14 @@ export default function Hero() {
             
             <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4">
               <span className="text-orange-400">#1 EYE EXAM</span><br />
-              Near You San Antonio<br />
+              Near You DFW<br />
               <span className="text-orange-400 text-3xl sm:text-4xl">20% OFF</span><br />
               If CALL or BOOK ONLINE
             </h1>
             
             <div className="flex flex-col gap-3 mb-6 px-4">
               <a 
-                href="tel:+12109232020" 
+                href="tel:+12145505005" 
                 className="bg-primary-700 border-2 border-white text-white px-6 py-3 rounded-lg font-bold text-lg hover:bg-primary-800 transition-colors duration-200 text-center"
               >
                 Call Us
@@ -61,14 +61,14 @@ export default function Hero() {
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
                 <span className="text-orange-400">#1 EYE EXAM</span><br />
-                Near You San Antonio<br />
+                Near You DFW<br />
                 <span className="text-orange-400">20% OFF</span><br />
                 If CALL or BOOK ONLINE
               </h1>
               <p className="text-xl mb-8 text-blue-100">(From any frames on stock. Not valid with insurance or other promotions.)</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="tel:+12109232020" 
+                  href="tel:+12145505005" 
                   className="bg-white text-primary-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors duration-200 text-center"
                 >
                   <Phone className="w-5 h-5 mr-2 inline" />Call Us
