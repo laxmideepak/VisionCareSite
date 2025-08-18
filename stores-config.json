@@ -1,0 +1,33 @@
+{
+  "stores": {
+    "store-1": {
+      "name": "Go-To-Optical and Eye Care",
+      "tagline": "EYEWEAR + EYECARE",
+      "address": "4396 Dallas Fort Worth Turnpike Ste 107, Dallas, TX 75211",
+      "phone": "+1 (214) 550-5005",
+      "doctor": {
+        "name": "Dr. Joby, OD",
+        "title": "Therapeutic Optometrist",
+        "bio": "Dr. Joby is a dedicated Therapeutic Optometrist with extensive experience in comprehensive eye care, specializing in eye examinations, contact lens fittings, and the management of ocular diseases. With a strong foundation in therapeutic optometry and a commitment to staying current with the latest advancements in technology and treatment, Dr. Joby ensures every patient receives personalized, patient-centered care. Known for taking the time to understand each individual's unique needs, Dr. Joby is devoted to helping patients achieve optimal vision and long-term eye wellness."
+      },
+      "bookingUrl": "https://scheduleyourexam.com/v3/index.php/9227/",
+      "googleMapsUrl": "https://maps.google.com/?q=4396+Dallas+Fort+Worth+Turnpike+Ste+107,+Dallas,+TX+75211",
+      "vercelProjectName": "vision-care-site"
+    },
+    "store-2": {
+      "name": "Go-To-Optical and Eye Care - Store 2",
+      "tagline": "EYEWEAR + EYECARE",
+      "address": "YOUR_STORE_2_ADDRESS_HERE",
+      "phone": "YOUR_STORE_2_PHONE_HERE",
+      "doctor": {
+        "name": "YOUR_DOCTOR_NAME_HERE",
+        "title": "Therapeutic Optometrist",
+        "bio": "YOUR_DOCTOR_BIO_HERE"
+      },
+      "bookingUrl": "YOUR_STORE_2_BOOKING_URL_HERE",
+      "googleMapsUrl": "YOUR_STORE_2_GOOGLE_MAPS_URL_HERE",
+      "vercelProjectName": "vision-care-site-2"
+    }
+  },
+  "currentStore": "store-1"
+}

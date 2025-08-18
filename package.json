@@ -15,7 +15,10 @@
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
     "db:reset": "npm run db:migrate && npm run db:seed",
-    "db:test": "tsx scripts/test-db.ts"
+    "db:test": "tsx scripts/test-db.ts",
+    "store:switch": "node scripts/switch-store.js switch",
+    "store:current": "node scripts/switch-store.js current",
+    "store:list": "node scripts/switch-store.js list"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
