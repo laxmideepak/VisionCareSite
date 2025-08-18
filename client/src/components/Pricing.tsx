@@ -1,40 +1,42 @@
 import { Phone, Calendar, Scissors } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Pricing() {
+  const { t } = useLanguage();
   const pricingPlans = [
     {
       price: "$69",
-      title: "Basic eye exam",
+      title: t('basicEyeExam'),
       features: [
-        "vision test",
-        "Prescription", 
-        "Eye health screening"
+        t('visionTest'),
+        t('prescription'), 
+        t('eyeHealthScreening')
       ]
     },
     {
       price: "$89",
-      title: "Complete eye exam",
+      title: t('completeEyeExam'),
       features: [
-        "all basic tests",
-        "Retinal imaging"
+        t('allBasicTests'),
+        t('retinalImaging')
       ]
     },
     {
       price: "$99",
-      title: "Premium eye exam",
+      title: t('premiumEyeExam'),
       features: [
-        "all tests",
-        "Standard contact lens fitting",
-        "Glasses prescription"
+        t('allTests'),
+        t('standardContactLensFitting'),
+        t('glassesPrescription')
       ]
     },
     {
       price: "$119",
-      title: "Full eye care package",
+      title: t('fullEyeCarePackage'),
       features: [
-        "exam",
-        "Specialized contact lens fitting",
-        "Glasses prescription"
+        t('exam'),
+        t('specializedContactLensFitting'),
+        t('glassesPrescription')
       ]
     }
   ];
@@ -59,8 +61,8 @@ export default function Pricing() {
           </div>
           
           {/* Specials Heading */}
-          <h2 className="text-3xl sm:text-4xl font-bold text-blue-600 mb-3 sm:mb-4">Our Specials</h2>
-          <p className="text-base sm:text-lg text-gray-700">Eye exam without glasses purchase</p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-blue-600 mb-3 sm:mb-4">{t('ourSpecials')}</h2>
+          <p className="text-base sm:text-lg text-gray-700">{t('eyeExamWithoutGlasses')}</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
@@ -91,7 +93,7 @@ export default function Pricing() {
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <Calendar className="w-4 h-4 mr-2 relative z-10" />
-                <span className="relative z-10">Book Online</span>
+                <span className="relative z-10">{t('bookOnline')}</span>
               </a>
             </div>
           ))}
@@ -105,14 +107,14 @@ export default function Pricing() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-800 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2 inline relative z-10" />
-              <span className="relative z-10">Call Us</span>
+              <span className="relative z-10">{t('callUs')}</span>
             </a>
             <a 
               href="https://scheduleyourexam.com/v3/index.php/9227/" 
               className="group relative bg-white text-blue-600 border-2 border-blue-600 px-8 sm:px-10 py-4 rounded-xl font-bold text-base sm:text-lg hover:bg-blue-600 hover:text-white transition-all duration-300 touch-manipulation shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <span className="relative z-10">Book Online</span>
+              <span className="relative z-10">{t('bookOnline')}</span>
             </a>
           </div>
         </div>

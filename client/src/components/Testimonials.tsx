@@ -1,6 +1,8 @@
 import { Star } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Testimonials() {
+  const { t } = useLanguage();
   const testimonials = [
     {
       name: "David Martin",
@@ -27,16 +29,16 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <div className="flex items-center justify-center mb-4 px-4">
-            <span className="text-4xl sm:text-6xl font-bold text-gray-900 mr-2 sm:mr-4">300+</span>
+            <span className="text-4xl sm:text-6xl font-bold text-gray-900 mr-2 sm:mr-4">{t('reviews')}</span>
             <img 
               src="/assets/animated-5-stars.gif" 
               alt="5 Star Rating Animation" 
               className="h-8 sm:h-12 w-auto mr-2 sm:mr-4"
             />
           </div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 px-2">5 STAR REVIEWS ON GOOGLE</h2>
-          <p className="text-lg sm:text-xl text-gray-700 mb-1 sm:mb-2">Our patients love us!</p>
-          <p className="text-base sm:text-lg text-gray-600">But don't take our word for it.</p>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 px-2">{t('starReviews')}</h2>
+          <p className="text-lg sm:text-xl text-gray-700 mb-1 sm:mb-2">{t('ourPatientsLoveUs')}</p>
+          <p className="text-base sm:text-lg text-gray-600">{t('butDontTakeOurWord')}</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

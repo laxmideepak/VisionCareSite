@@ -1,42 +1,44 @@
 import { Phone } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Services() {
+  const { t } = useLanguage();
   return (
     <section className="bg-blue-600 py-12 sm:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 sm:mb-6 px-2">
-            Your Local Optometrist<br />
-            Near You for Eye Exams,<br />
-            Contacts & Glasses
+            {t('yourLocalOptometrist')}<br />
+            {t('nearYouForEyeExams')}<br />
+            {t('contactsAndGlasses')}
           </h2>
           <p className="text-base sm:text-lg text-white max-w-4xl mx-auto leading-relaxed px-4">
-            At Go-To-Optical and Eye Care, we are proud to provide comprehensive, primary eye care for the whole family. Our DFW optometrist, Dr. Joby, and our vision care team specialize in a full range of eye care services for women, men and children of all ages, such as
+            {t('servicesIntro')}
           </p>
           <ul className="text-base sm:text-lg text-white mt-4 sm:mt-6 space-y-1 sm:space-y-2 px-4">
             <li className="flex items-center justify-center">
               <svg className="w-4 h-4 mr-2 text-blue-200 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              Comprehensive Eye Exams
+              {t('comprehensiveEyeExams')}
             </li>
             <li className="flex items-center justify-center">
               <svg className="w-4 h-4 mr-2 text-blue-200 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              Contact Lenses
+              {t('contactLenses')}
             </li>
             <li className="flex items-center justify-center">
               <svg className="w-4 h-4 mr-2 text-blue-200 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              Eyeglasses & Sunglasses
+              {t('eyeglassesAndSunglasses')}
             </li>
             <li className="flex items-center justify-center">
               <svg className="w-4 h-4 mr-2 text-blue-200 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              Management of Ocular Conditions
+              {t('managementOfOcularConditions')}
             </li>
           </ul>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6 sm:mt-8 px-4">
@@ -46,14 +48,14 @@ export default function Services() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <Phone className="w-4 h-4 mr-2 inline relative z-10" />
-              <span className="relative z-10">Call Us</span>
+              <span className="relative z-10">{t('callUs')}</span>
             </a>
             <a 
               href="https://scheduleyourexam.com/v3/index.php/9227/" 
               className="group relative bg-transparent text-white border-2 border-white px-6 py-4 rounded-xl font-semibold hover:bg-white hover:text-blue-600 active:bg-gray-100 transition-all duration-300 touch-manipulation shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-white to-gray-50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <span className="relative z-10">Book Online</span>
+              <span className="relative z-10">{t('bookOnline')}</span>
             </a>
           </div>
         </div>
@@ -65,8 +67,8 @@ export default function Services() {
               alt="1 Hour Service" 
               className="w-full h-40 sm:h-48 object-cover rounded-lg mb-4"
             />
-            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">1 HOUR SERVICE + SAME DAY EXAMS</h3>
-            <p className="text-sm sm:text-base text-gray-600">We offer one hour eyeglasses & same day eye exams & contact lens fittings.</p>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">{t('oneHourService')}</h3>
+            <p className="text-sm sm:text-base text-gray-600">{t('oneHourDescription')}</p>
           </div>
           <div className="bg-white p-4 sm:p-6 rounded-xl shadow-lg border border-gray-100">
             <img 
@@ -74,8 +76,8 @@ export default function Services() {
               alt="Luxury Eyewear" 
               className="w-full h-40 sm:h-48 object-cover rounded-lg mb-4"
             />
-            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">EXCLUSIVE RETAILER OF LUXURY EYEWEAR</h3>
-            <p className="text-sm sm:text-base text-gray-600">One of DFW's ONLY authorized retailers of Versace, Gucci, Prada and more.</p>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">{t('exclusiveRetailer')}</h3>
+            <p className="text-sm sm:text-base text-gray-600">{t('exclusiveDescription')}</p>
           </div>
           <div className="bg-white p-4 sm:p-6 rounded-xl shadow-lg border border-gray-100 sm:col-span-2 lg:col-span-1">
             <img 
@@ -83,8 +85,8 @@ export default function Services() {
               alt="Lowest Prices" 
               className="w-full h-40 sm:h-48 object-cover rounded-lg mb-4"
             />
-            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">LOWEST PRICES IN DFW</h3>
-            <p className="text-sm sm:text-base text-gray-600">$69 Eye Exam, 20% Off When You Book Online & More!</p>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">{t('lowestPricesInDFW')}</h3>
+            <p className="text-sm sm:text-base text-gray-600">{t('eyeExamPrice')}</p>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@
         "id": 1,
         "title": "Database Setup and Schema Design",
         "description": "Set up PostgreSQL database with Drizzle ORM and create comprehensive schema for the eye care practice management system",
-        "status": "pending",
+        "status": "done",
         "priority": "high",
         "dependencies": [],
         "details": "Create database schema for users (patients, staff, admins), appointments, contact submissions, testimonials, pricing plans, services, notifications, and medical records. Configure Drizzle ORM with proper relationships and constraints. Set up database migrations and connection pooling.",
@@ -250,7 +250,7 @@
     ],
     "metadata": {
       "created": "2025-08-17T23:42:19.694Z",
-      "updated": "2025-08-17T23:42:19.696Z",
+      "updated": "2025-08-18T00:57:07.300Z",
       "description": "Tasks for master context"
     }
   }

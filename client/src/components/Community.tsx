@@ -1,4 +1,7 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 export default function Community() {
+  const { t } = useLanguage();
   return (
     <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-12 sm:py-16 relative overflow-hidden">
       {/* Background Decorative Elements */}
@@ -21,14 +24,14 @@ export default function Community() {
           
           <div className="relative">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 px-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Our Commitment to the Community
+              {t('ourCommitmentToCommunity')}
             </h2>
             
             {/* Decorative underline */}
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-6 rounded-full"></div>
             
             <p className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto px-4 leading-relaxed">
-              At Go-To-Optical and Eye Care, we believe in giving back to the community. We are proud to support local organizations and initiatives that make a positive impact. Join us in our mission to improve the lives of those around us.
+              {t('communityDescription')}
             </p>
           </div>
 
